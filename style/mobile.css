@@ -1,0 +1,941 @@
+@media screen and (max-width: 1845px) {
+    header .header-main .logo-college::before {
+        width: 250px;
+        height: 250px;
+        top: -20px;
+        right: -270px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .container {
+        width: 1600px;
+    }
+    header .header-main .logo-college::before {
+        width: 230px;
+        height: 230px;
+        top: 0px;
+        right: -230px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .container {
+        width: 1500px;
+    }
+    header .header-main .logo-college::before {
+        width: 200px;
+        height: 200px;
+        top: 35px;
+        right: -210px;
+    }
+    header .header-main {
+        flex-wrap: nowrap;
+    }
+    header .header-main .line1,
+    header .header-main .line2 {
+        left: 215px;
+        width: 80px;
+    }
+    .howstudy .info-block .block:last-of-type::after {
+        right: 15px;
+    }
+    .howstudy .info-block .block:first-of-type::after {
+        left: 15px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .container {
+        width: 1300px;
+    }
+    header .header-main .logo-college::before {
+        display: none;
+    }
+    header .header .header-main .info img {
+        width: 230px;
+    }
+    header .header-main .line1, header .header-main .line2 {
+        left: 205px;
+        width: 90px;
+    }
+    .howstudy .info-block .block:nth-of-type(2)::before,
+    .howstudy .info-block .block:nth-of-type(3)::before,
+    .howstudy .info-block .block:nth-of-type(4)::before,
+    .howstudy .info-block .block:nth-of-type(5)::before {
+        width: 180px;
+    }
+    .howstudy .info-block .block:first-of-type::after,
+    .howstudy .info-block .block:last-of-type::after {
+        width: 105px;
+    }
+}
+
+@media screen and (max-width: 1475px) {
+    header .header-main .line1, header .header-main .line2 {
+        width: 110px;
+    }
+    header .header-main .logo-college .logo {
+        width: 200px;
+        height: 200px;
+    }
+    header .header-main .logo-college .logo .inside {
+        width: 185px;
+        height: 185px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .container,
+    header .header .container {
+        width: 1227px;
+    }
+    header nav .nav {
+        font-size: 14px;
+    }
+    header .logo-college .text .college span:nth-of-type(1),
+    footer .college span:nth-of-type(1) {
+        font-size: 20px;
+    }
+    header .logo-college .text .college span:nth-of-type(2),
+    footer .college span:nth-of-type(2) {
+        font-size: 40px;
+    }
+    header .logo-college .text .college .all span:nth-of-type(3) {
+        font-size: 20px;
+    }
+    header .header-main .dop {
+        font-size: 20px;
+    }
+    header .header .header-main .info .text {
+        font-size: 14px;
+    }
+    header .header .header-main .info img {
+        height: 81px;
+        width: auto;
+    }
+    header .header-main .logo-college .logo .inside {
+        width: 136px;
+        height: 136px;
+    }
+    header .header-main .logo-college .logo {
+        width: 151px;
+        height: 151px;
+    }
+    header .header-main .line1, header .header-main .line2 {
+        left: 195px;
+        width: 80px;
+    }
+    header .header-main .logo-college::before {
+        display: block;
+        top: 5px;
+        width: 190px;
+        height: 190px;
+    }
+    .web .text-info-b>span {
+        font-size: 36px;
+    }
+    .web .text-info-b .text-dop,
+    .web .dop div {
+        font-size: 16px;
+    }
+    .howstudy .info-block .block:nth-of-type(2)::before, .howstudy .info-block .block:nth-of-type(3)::before, .howstudy .info-block .block:nth-of-type(4)::before, .howstudy .info-block .block:nth-of-type(5)::before {
+        width: 160px;
+    }
+    .howstudy .info-block .block:nth-of-type(2)::before {
+        left: -70%;
+    }
+    header .header-main .line1, header .header-main .line2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1325px) {
+    header .header::before {
+        display: none;
+    }
+    header .header-main .logo-college .logo {
+        border: 1px dashed #8C9ABC;
+    }
+    header .header-main .logo-college .logo .inside {
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@media screen and (max-width: 1302px) {
+    .container, header .header .container {
+        width: 1100px;
+    }
+    header .header-main .logo-college::before {
+        display: block;
+        top: 45px;
+        width: 130px;
+        height: 130px;
+        right: -130px;
+    }
+    .about .info-block .block:nth-of-type(2)::before, .about .info-block .block:nth-of-type(3)::before {
+        top: 50px;
+        height: 60%;
+    }
+    section.white .about-course .info-block .block,
+    section.gray .about-course .info-block .block {
+        width: 30%;
+    }
+    .howstudy .info-block .block:first-of-type::after {
+        left: 0;
+    }
+    .howstudy .info-block .block:last-of-type::after {
+        right: 0;
+    }
+    section.gray .about {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1205px) {
+    .container, header .header .container {
+        width: 1000px;
+    }
+    header .header-main .logo-college::before {
+        display: none;
+    }
+    header .header-main .logo-college .logo {
+        margin-right: 20px;
+    }
+    header .header .header-main .info img {
+        height: 70px;
+    }
+    .web .text .img {
+        width: 200px;
+        height: 200px;
+    }
+    .web .text-info-b>span {
+        font-size: 35px;
+    }
+    .web .text-info-b .hashtag span {
+        font-size: 14px;
+    }
+    header .logo-college .text .college span:nth-of-type(2), footer .college span:nth-of-type(2) {
+        font-size: 38px;
+    }
+    header .header-main {
+        flex-wrap: wrap;
+    }
+    header .header-main .logo-college {
+        width: 100%;
+    }
+    header .header .header-main .info {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        margin-top: 15px;
+    }
+    .howstudy .info-block .block:first-of-type::after, .howstudy .info-block .block:last-of-type::after {
+        width: 95px;
+    }
+    .howstudy .info-block .block:first-of-type::after {
+        left: -15px;
+    }
+    .howstudy .info-block .block:last-of-type::after {
+        right: -15px;
+    }
+    .howstudy .info-block .block:nth-of-type(2)::before, .howstudy .info-block .block:nth-of-type(3)::before, .howstudy .info-block .block:nth-of-type(4)::before, .howstudy .info-block .block:nth-of-type(5)::before {
+        width: 120px;
+    }
+    .howstudy .info-block .block:nth-of-type(3)::before {
+        left: -63%;
+    }
+    .howstudy .info-block .block:nth-of-type(4)::before {
+        top: 24%;
+    }
+    .howstudy .info-block .block:nth-of-type(5)::before {
+        left: -55%;
+    }
+    footer .footer {
+        flex-wrap: wrap;
+    }
+    footer .footer .college {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer .footer nav {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .container, header .header .container {
+        width: 900px;
+    }
+    .web .text-info-b>span {
+        font-size: 34px;
+    }
+    .web .text .img {
+        width: 190px;
+        height: 190px;
+        margin-right: 35px;
+    }
+    .web .text-info-b .text-dop, .web .dop div,
+    .about-course .info-block .block .info,
+    .howstudy .info-block .block .info .text span,
+    .questions .info-block .block .text,
+    .info .info-block .block span:nth-of-type(2),
+    .about .info-block .block span:nth-of-type(2),
+    .reviews .info-block .block .text {
+        font-size: 15px;
+    }
+    .h span {
+        font-size: 33px;
+    }
+    section.white .about-course .info-block .block, section.gray .about-course .info-block .block {
+        width: 32%;
+    }
+    .about .info-block .block span:nth-of-type(1),
+    .about-course .info-block .block .name,
+    .howstudy .info-block .block .info .text .text-weight,
+    .questions .info-block .block .question-text {
+        font-size: 19px;
+    }
+    .info .info-block .block img {
+        height: 150px;
+    }
+    .teachers .info-block .block .img {
+        width: 180px;
+        height: 180px;
+    }
+    .certificate .info-block .img {
+        /* height: 210px; */
+    }
+    .certificate .info-block .block span {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .container, header .header .container {
+        width: 800px;
+    }
+    section.white .about-course .info-block, section.gray .about-course .info-block {
+        flex-wrap: wrap;
+    }
+    .about .info-block .block:nth-of-type(2)::before, .about .info-block .block:nth-of-type(3)::before {
+        height: 35%;
+    }
+    .about .info-block .block:nth-of-type(2)::before, .about .info-block .block:nth-of-type(3)::before {
+        left: -78%;
+    }
+    section.white .about-course .info-block .block, section.gray .about-course .info-block .block,
+    section.white .certificate .info-block .block {
+        width: 48%;
+        margin-bottom: 25px;
+    }
+    .howstudy .info-block .block .info .text .text-weight {
+        width: 100%;
+    }
+    .about .info-block .block span:nth-of-type(1), .about-course .info-block .block .name, .howstudy .info-block .block .info .text .text-weight, .questions .info-block .block .question-text {
+        font-size: 18px;
+    }
+    .howstudy .info-block .block .info .text .img {
+        height: 70px;
+    }
+    .howstudy .info-block .block:nth-of-type(2)::before, .howstudy .info-block .block:nth-of-type(3)::before, .howstudy .info-block .block:nth-of-type(4)::before, .howstudy .info-block .block:nth-of-type(5)::before {
+        width: 100px;
+    }
+    section.white .certificate .info-block {
+        justify-content: space-between;
+    }
+    section.white .certificate .info-block .block {
+        margin-right: 10px;
+    }
+    .teachers .info-block .block span:nth-of-type(2),
+    .teachers .info-block .block span:nth-of-type(1) {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .container, header .header .container {
+        width: 700px;
+    }
+    section .web {
+        flex-wrap: wrap;
+    }
+    .web .text,
+    .web .dop {
+        width: 100%;
+    }
+    .web .text {
+        padding-right: 0;
+        border: 0;
+        margin-bottom: 20px;
+    }
+    header .logo-college .text .college .all span:nth-of-type(3) {
+        width: 100%;
+        transform: translateY(-3px);
+    }
+    header .logo-college .text .college .all {
+        flex-wrap: wrap;
+    }
+    header .logo-college .text .college .all span:nth-of-type(2) {
+        margin-right: 0;
+        padding-right: 0;
+        border: 0;
+    }
+    header nav .nav {
+        flex-wrap: wrap;
+    }
+    header .nav .menu {
+        order: 1;
+        margin-bottom: 15px;
+    }
+    header .nav .social {
+        order: 3;
+    }
+    header .nav .auth {
+        order: 2;
+        margin-bottom: 15px;
+    }
+    .web .text .img {
+        width: 170px;
+        height: 170px;
+    }
+    .web .text-info-b>span,
+    .h span {
+        font-size: 32px;
+    }
+    .about .info-block .block:nth-of-type(2)::before, .about .info-block .block:nth-of-type(3)::before {
+        display: none;
+    }
+    .info .info-block .block img {
+        height: 130px;
+    }
+    .info .info-block .block span:nth-of-type(1) {
+        font-size: 22px;
+    }
+    .teachers .info-block .block .img {
+        width: 150px;
+        height: 150px;
+    }
+    .teachers .info-block .block span:nth-of-type(1) div:nth-of-type(1) {
+        font-size: 22px;
+    }
+    .teachers .info-block .block span:nth-of-type(1) {
+        font-size: 16px;
+    }
+    .howstudy .info-block .block:first-of-type::after,
+    .howstudy .info-block .block:last-of-type::after {
+        display: none;
+    }
+    section.gray .howstudy .info-block {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    section.gray .howstudy .info-block .block {
+        position: relative;
+        width: 40%;
+        margin-bottom: 25px;
+    }
+
+    .howstudy .info-block .block::before {
+        position: absolute;
+        color: rgba(111, 111, 111, 0.08);
+        font-weight: 900;
+        font-size: 150px;
+        left: 15%!important;
+    }
+
+    .howstudy .info-block .block:nth-of-type(1)::before {
+        content: '1';
+        background-image: none;
+        top: 0;
+        width: auto;
+        height: auto;
+    }
+    .howstudy .info-block .block:nth-of-type(2)::before {
+        content: '2';
+        background-image: none;
+        top: 0;
+        width: auto;
+        height: auto;
+    }
+    .howstudy .info-block .block:nth-of-type(3)::before {
+        content: '3';
+        background-image: none;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+    }
+    .howstudy .info-block .block:nth-of-type(4)::before {
+        content: '4';
+        background-image: none;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+    }
+    .howstudy .info-block .block:nth-of-type(5)::before {
+        content: '5';
+        background-image: none;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+    }
+    .howstudy .info-block .block .info .text .text-weight::before {
+        top: 30px;
+    }
+    .howstudy .info-block .block:nth-child(2n) .info .text span {
+        order: 3;
+        margin-bottom: 0;
+        margin-top: 28px;
+    }
+    .howstudy .info-block .block:nth-child(2n) .info .text .img {
+        order: 2;
+    }
+    .howstudy .info-block .block:nth-child(2n) .info .text .text-weight {
+        order: 1;
+        margin-bottom: 77px;
+        margin-top: 0;
+    }
+    .howstudy .info-block .block:nth-of-type(2n) .info .text .text-weight::before {
+        top: 30px;
+        transform: rotate(0deg) translateX(-50%);
+    }
+    .howstudy .info-block .block .info .text .img img {
+        position: relative;
+    }
+    .modal .modal-dialog .modal-content .form h1 {
+        font-size: 24px;
+    }
+    .modal .modal-dialog .modal-content .desc .college span:nth-of-type(2), .modal .modal-dialog .modal-content .desc .college span:nth-of-type(3) {
+        font-size: 26px;
+    }
+    .web .dop {
+        padding-right: 64px;
+    }
+    .web .dop .btn-m {
+        margin: 26px auto 0;
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .modal-dialog {
+        max-width: 770px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .h span {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container,
+    header .header .container {
+        width: 95%;
+    }
+    .web .text-info-b .text-dop {
+        margin-top: 25px;
+    }
+    section.white .info-block .block, section.gray .info-block .block {
+        width: 30%;
+    }
+    .info .info-block .block:nth-of-type(2)::before, .info .info-block .block:nth-of-type(3)::before {
+        left: -10%;
+    }
+    .web .text .img {
+        margin-right: 25px;
+    }
+    header .logo-college .text .college .all span:nth-of-type(2) {
+        order: 1;
+        width: 100%;
+    }
+    header .logo-college .text .college .all span:nth-of-type(1) {
+        order: 2;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    header .logo-college .text .college .all span:nth-of-type(3) {
+        order: 3;
+        width: auto;
+        transform: none;
+        margin-top: 10px;
+    }
+    header .header-main .dop {
+        margin-top: 5px;
+    }
+    .modal-dialog {
+        max-width: 670px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .info .info-block .block:nth-of-type(2)::before, .info .info-block .block:nth-of-type(3)::before {
+        display: none;
+    }
+    .modal-dialog {
+        max-width: 600px;
+    }
+    .modal .modal-dialog .modal-content .desc {
+        width: 40%;
+    }
+    .modal .modal-dialog .modal-content .form {
+        padding: 30px;
+    }
+    .modal .modal-dialog .modal-content .desc {
+        padding: 30px;
+    }
+    .modal .modal-dialog .modal-content .desc .college span:nth-of-type(2), .modal .modal-dialog .modal-content .desc .college span:nth-of-type(3) {
+        font-size: 16px;
+    }
+    .modal .modal-dialog .modal-content .desc .college .college-text span {
+        font-size: 14px;
+    }
+    .modal .modal-dialog .modal-content .form form .btn-new {
+        text-align: center;
+    }
+    .h span {
+        max-width: 55%;
+    }
+}
+
+@media screen and (max-width: 616px) {
+    header .nav .social {
+        display: none;
+    }
+    header nav .nav {
+        padding: 0;
+    }
+    header .nav .menu,
+    header .nav .auth {
+        margin-bottom: 0;
+        padding: 15px 0;
+    }
+    footer nav .menu {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer .social {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .web .text-info-b>span, .h span {
+        font-size: 30px;
+    }
+    .teachers .info-block .block span:nth-of-type(2) {
+        width: 95%;
+    }
+    section.white .info-block .block, section.gray .info-block .block {
+        width: 48%;
+        margin-bottom: 25px;
+    }
+    .h span {
+        max-width: 100%;
+    }
+    .h span::before,
+    .h span::after {
+        bottom: -10px;
+        top: auto;
+        width: 100px;
+    }
+    .h span::before {
+        left: 50%;
+        transform: translateX(-100%);
+    }
+    .h span::after {
+        right: 50%;
+        transform: translateX(100%);
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .modal .modal-dialog .modal-content .desc {
+        display: none;
+    }
+    .about-course .info-block .block {
+        padding: 20px;
+    }
+    section.white .info-block, section.gray .info-block {
+        margin-top: 70px;
+    }
+    .howstudy .info-block .block::before {
+        font-size: 130px;
+        top: 10px!important;
+    }
+    section.white .info-block .block, section.gray .info-block .block, section.white .about-course .info-block .block, section.gray .about-course .info-block .block, section.white .certificate .info-block .block {
+        width: 49%;
+    }
+    section.gray .howstudy .info-block .block {
+        width: 42%;
+    }
+    section.white,
+    section.gray {
+        padding: 60px 0;
+    }
+    header .logo-college .text .college span:nth-of-type(2), footer .college span:nth-of-type(2) {
+        font-size: 35px;
+    }
+    header .logo-college .text .college .all span:nth-of-type(1) {
+        font-size: 17px;
+    }
+    header .logo-college .text .college .all span:nth-of-type(3) {
+        font-size: 19px;
+    }
+    .info .info-block .block span:nth-of-type(1) {
+        font-size: 20px;
+    }
+    .info .info-block .block span:nth-of-type(2) {
+        margin-top: 15px;
+    }
+    section.white .certificate .info-block {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    header .logo-college .text .college span:nth-of-type(2), footer .college span:nth-of-type(2) {
+        font-size: 28px;
+    }
+    header .header-main .logo-college .logo .inside {
+        width: 125px;
+        height: 125px;
+    }
+    header .header-main .logo-college .logo {
+        width: 135px;
+        height: 135px;
+    }
+    header .header .header-main .info img {
+        display: none;
+    }
+    footer .footer .rightWay {
+        display: block;
+        height: 60px;
+        margin-top: 20px;
+    }
+    .web .text-info-b>span, .h span {
+        font-size: 28px;
+    }
+    .menu-btn {
+        display: block;
+    }
+    header nav .nav {
+        display: none;
+    }
+    footer nav .menu {
+        display: none;
+    }
+    .howstudy .info-block .block::before {
+        top: 60px!important;
+        left: 10%!important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header .header-main {
+        padding: 15px 0;
+    }
+    header .header-main .logo-college {
+        position: relative;
+        border-bottom: 1px solid rgba(111, 111, 111, 0.2);
+        padding-bottom: 15px;
+    }
+    header .header-main .logo-college .logo {
+        position: absolute;
+        right: 0;
+    }
+    header .header-main .logo-college .text {
+        position: relative;
+    }
+    header .logo-college .text .college span:nth-of-type(1), footer .college span:nth-of-type(1),
+    header .logo-college .text .college .all span:nth-of-type(1),
+    header .logo-college .text .college .all span:nth-of-type(3) {
+        font-size: 16px;
+    }
+    header .logo-college .text .college span:nth-of-type(2), footer .college span:nth-of-type(2) {
+        font-size: 20px;
+    }
+    header .header-main .dop {
+        font-size: 18px;
+    }
+    .web .text {
+        flex-wrap: wrap;
+    }
+    .web .text .img {
+        width: 100%;
+        height: 250px;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .web .text .img img {
+        width: 100%;
+        height: auto;
+    }
+    .web .dop .btn-m {
+        max-width: 70%;
+    }
+    section.white .about-course .info-block,
+    section.gray .about-course .info-block {
+        justify-content: center;
+    }
+    section.white .about-course .info-block .block, section.gray .about-course .info-block .block,
+    section.white .certificate .info-block .block {
+        width: 80%;
+    }
+    section.white .reviews .info-block,
+    section.gray .questions .info-block {
+        justify-content: center;
+    }
+    section.white .reviews .info-block .block,
+    section.gray .questions .info-block .block {
+        padding: 20px;
+        width: 80%;
+    }
+    footer .college .all {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer .college .all span:nth-of-type(1) {
+        order: 2;
+        margin-right: 0;
+        margin-top: 5px;
+        padding: 3px 10px;
+    }
+    footer .college .all span:nth-of-type(2) {
+        order: 1;
+    }
+    header .header-main .logo-college .logo {
+        margin-right: 0;
+    }
+    .howstudy .info-block .block::before {
+        font-size: 100px;
+    }
+    .howstudy .info-block .block .info .text .text-weight {
+        width: 70%;
+    }
+    .howstudy .info-block .block .info .text .text-weight::before,
+    .howstudy .info-block .block:nth-of-type(2n) .info .text .text-weight::before {
+        top: 50px;
+    }
+    .rates .info-block .block .info .description div span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    header .header-main .logo-college .logo .inside {
+        width: 115px;
+        height: 115px;
+    }
+    header .header-main .logo-college .logo {
+        width: 125px;
+        height: 125px;
+        opacity: .3;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .howstudy .info-block .block .info .text .text-weight {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .web .dop .btn-m {
+        max-width: 100%;
+    }
+    section.white .info-block, section.gray .info-block {
+        justify-content: center;
+    }
+    section.white .info-block .block, section.gray .info-block .block, section.white .about-course .info-block .block, section.gray .about-course .info-block .block, section.white .certificate .info-block .block,
+    section.white .reviews .info-block .block, section.gray .questions .info-block .block {
+        width: 100%;
+    }
+    section.gray .howstudy .info-block .block {
+        width: 100%;
+    }
+    .howstudy .info-block .block::before {
+        font-size: 150px;
+        top: 30px!important;
+        left: 20%!important;
+    }
+    section.white .reviews .info-block .block,
+    section.gray .questions .info-block .block {
+        margin-bottom: 15px;
+    }
+    section.white, section.gray {
+        padding: 50px 0;
+    }
+    .web .text .img {
+        height: 210px;
+    }
+    .howstudy .info-block .block .info .text .text-weight::before, .howstudy .info-block .block:nth-of-type(2n) .info .text .text-weight::before {
+        top: 30px;
+    }
+}
+
+@media screen and (max-width: 348px) {
+    .web .dop {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    section.white .info-block, section.gray .info-block {
+        margin-top: 60px;
+    }
+    .info .info-block .block img {
+        height: 120px;
+    }
+    .info .info-block .block span:nth-of-type(1),
+    .about .info-block .block span:nth-of-type(1) {
+        margin-top: 20px;
+    }
+    .web .text-info-b>span, .h span {
+        font-size: 27px;
+    }
+    .web .text-info-b .text-dop, .web .dop div, .about-course .info-block .block .info, .howstudy .info-block .block .info .text span, .questions .info-block .block .text, .info .info-block .block span:nth-of-type(2), .about .info-block .block span:nth-of-type(2), .reviews .info-block .block .text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    header .header-main .logo-college .logo .inside {
+        width: 105px;
+        height: 105px;
+    }
+    header .header-main .logo-college .logo {
+        width: 115px;
+        height: 115px;
+    }
+    .web .text .img {
+        height: 190px;
+    }
+    .web .text-info-b>span, .h span {
+        font-size: 26px;
+    }
+    .web .text-info-b .hashtag span {
+        padding: 3px 7px;
+    }
+    .slick-dots {
+        bottom: -50px;
+    }
+    .slick-dots li button:before {
+        width: 20px;
+    }
+    .slick-dots li {
+        margin: 0 7px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .howstudy .info-block .block::before {
+        font-size: 130px;
+        left: 12%!important;
+    }
+}
