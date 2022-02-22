@@ -75,6 +75,29 @@ section:last-of-type {
     border-radius: 50px;
 }
 
+.btn-blue {
+    background-color: #1D63FF;
+    color: #fff;
+    border: 1px solid transparent;
+    transition: .3s;
+}
+.btn-blue:hover {
+    background-color: transparent;
+    border: 1px solid #1D63FF;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #121722;
+    border: 1px solid transparent;
+    transition: .3s;
+}
+.btn-white:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
 header {
     width: 100%;
     height: 100vh;
@@ -107,7 +130,6 @@ header nav .btn-write {
 
 header nav .btn-write .btn {
     padding: 9px 27px;
-    background-color: #1D63FF;
 }
 
 header nav .logo a {
@@ -179,7 +201,6 @@ header .info .btn-anchor {
 header .info .btn-anchor .btn {
     position: relative;
     padding: 18px 70px 18px 36px;
-    background-color: #1D63FF;
 }
 
 header .info .btn-anchor .btn::before {
@@ -248,8 +269,6 @@ header .info .btn-anchor .btn::before {
 }
 
 .about .info-block .block .btn-price .btn {
-    color: #121722;
-    background-color: #fff;
     padding: 9px 30px;
 }
 
