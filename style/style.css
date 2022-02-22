@@ -254,8 +254,8 @@ header .info .btn-anchor .btn::before {
 }
 
 .about .info-block .block h3 {
+    margin: 0 auto;
     margin-top: 37px;
-}
-.about .info-block .block span {
-    margin-top: 18px;
+    margin-bottom: 18px;
+    width: 70%;
 }
