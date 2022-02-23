@@ -155,10 +155,6 @@ header nav .btn-write .btn {
     padding: 9px 27px;
 }
 
-header nav .logo a {
-    /* pointer-events: none; */
-}
-
 header nav .menu a {
     position: relative;
 }
