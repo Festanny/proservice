@@ -293,7 +293,8 @@ header .info .btn-anchor .btn::before {
     justify-content: center;
 }
 
-.about .info-block .block:nth-of-type(1) {
+.about .info-block .block:nth-of-type(1),
+.address .info-block .block:nth-of-type(1) {
     grid-column: 1/3; 
     grid-row: 1/3;
     padding: 75px;
@@ -375,6 +376,11 @@ header .info .btn-anchor .btn::before {
     padding: 80px 18px 56px 18px;
     text-align: center;
     margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.price .info-block .block:last-of-type {
+    margin-right: 0;
 }
 
 .price .info-block .block .info .img {
@@ -412,13 +418,6 @@ header .info .btn-anchor .btn::before {
     margin-bottom: 18px;
 }
 
-.address .info-block .block:nth-of-type(1) {
-    grid-column: 1/3; 
-    grid-row: 1/3;
-    padding: 75px;
-    background-color: #1D63FF;
-    color: #fff;
-}
 .address .info-block .block:nth-of-type(2) {
     grid-column: 4; 
     grid-row: 1;
