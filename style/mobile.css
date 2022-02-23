@@ -104,8 +104,37 @@
     header .header .info .text {
         font-size: 50px;
     }
+    footer .footer .info span {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 899px) {
+    .container {
+        width: 800px;
+    }
+    .container-b {
+        width: 93%;
+    }
+    body,
+    .btn {
+        font-size: 15px;
+    }
+    .about .info-block, .address .info-block {
+        grid-template-rows: 350px 350px;
+        grid-template-columns: 200px 200px 200px 200px;
+    }
+    .about .info-block .block, .address .info-block .block {
+        font-size: 14px;
+    }
+    header nav .menu a {
+        margin-right: 20px;
+    }
+}
 
+@media screen and (max-width: 830px) {
+    .price .info-block .block {
+        width: 31%;
+        margin-right: 0;
+    }
 }
