@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Pro-сервис</title>
-    <link rel="stylesheet" href="style/bootstrap.css">
+    <!-- <link rel="stylesheet" href="style/bootstrap.css"> -->
     <link rel="icon" type="image/png" href="image/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,9 +23,9 @@
             <div class="container-b">
                 <nav>
                     <div class="menu">
-                        <a href="#">Прайс</a>
-                        <a href="#">О нас</a>
-                        <a href="#">Контакты</a>
+                        <a href="#price">Прайс-лист</a>
+                        <a href="#about">О нас</a>
+                        <a href="#contact">Контакты</a>
                     </div>
                     <div class="logo">
                         <a href="/"><img src="image/logo.svg" alt=""></a>
@@ -54,7 +54,7 @@
     </header>
 
     <main>
-        <section>
+        <section id="about">
             <div class="h">
                 <h1>О компании Pro-сервис</h1>
             </div>
@@ -109,7 +109,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="price">
             <div class="h">
                 <h1>Предоставляемые услуги</h1>
             </div>
@@ -180,7 +180,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="contact">
             <div class="h">
                 <h1>Как нас найти?</h1>
             </div>
@@ -249,6 +249,7 @@
         </div>
 	</footer>
 
-<script src="script/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
