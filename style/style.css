@@ -177,10 +177,6 @@ header .header {
     padding-top: 8%;
 }
 
-.paddingTopHeader {
-    padding-top: calc(8% + 169px)!important;
-}
-
 header .header .info {
     display: flex;
     flex-direction: column;

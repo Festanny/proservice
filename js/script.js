@@ -12,13 +12,3 @@ $(window).scroll(function(){
         $('header nav').removeClass('fixed');
     }
 });
-
-// $(window).scroll(function(){
-//     if ($('header nav').hasClass('fixed')) {
-//         $('header .header').addClass('paddingTopHeader');
-//     }
-//     else {
-//         $('header .header').removeClass('paddingTopHeader');
-//     }
-// });
-
