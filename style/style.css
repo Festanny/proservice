@@ -251,7 +251,10 @@ header .info .btn-anchor .btn::before {
 .about .info-block .block:nth-of-type(2),
 .about .info-block .block:nth-of-type(3),
 .about .info-block .block:nth-of-type(4),
-.about .info-block .block:nth-of-type(5) {
+.about .info-block .block:nth-of-type(5),
+.address .info-block .block:nth-of-type(3),
+.address .info-block .block:nth-of-type(4),
+.address .info-block .block:nth-of-type(5) {
     align-items: center;
     text-align: center;
 }
@@ -281,13 +284,21 @@ header .info .btn-anchor .btn::before {
     width: 70%;
 }
 
-.about .info-block .block .img {
+.address .info-block .block h3 {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about .info-block .block .img,
+.address .info-block .block .img {
     width: 96px;
     height: 96px;
     margin: 0 auto;
     overflow: hidden;
 }
-.about .info-block .block .img img {
+.about .info-block .block .img img,
+.address .info-block .block .img img {
     height: 100%;
     object-fit: cover;
 }
@@ -391,10 +402,14 @@ header .info .btn-anchor .btn::before {
     padding: 10px;
 }
 
-
 .address .info-block .block:nth-of-type(2) .map .point {
     width: 100px;
     height: 100px;
     background-color: #fff;
     border-radius: 50%;
+    padding: 8px;
+    background-image: url("../image/gps.png");
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: center;
 }
