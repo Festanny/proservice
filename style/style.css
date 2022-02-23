@@ -156,7 +156,7 @@ header nav .btn-write .btn {
 }
 
 header nav .logo a {
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 
 header nav .menu a {
