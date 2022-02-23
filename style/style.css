@@ -107,11 +107,32 @@ header {
     color: #fff;
 }
 
+header nav .container-b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .paddingNav {
+    padding: 45px 0;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 0;
+    padding: 15px 0;
+    transition: all .3s;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #0E3280;
+    transition: all .3s;
 }
 
 header nav .menu a {
@@ -150,7 +171,6 @@ header nav .menu a::before {
     background-color: #fff;
     bottom: 0;
     opacity: 0;
-    transition: .3s;
 }
 header nav .menu a:hover::before {
     bottom: -5px;
@@ -158,7 +178,11 @@ header nav .menu a:hover::before {
 }
 
 header .header {
-    margin-top: 8%;
+    padding-top: 8%;
+}
+
+.paddingTopHeader {
+    padding-top: calc(8% + 169px)!important;
 }
 
 header .header .info {
