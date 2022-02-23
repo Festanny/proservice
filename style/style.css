@@ -158,21 +158,21 @@ header nav .menu a:last-of-type {
 
 header nav .menu {
     flex: 3;
-    animation: top 1s forwards;
+    animation: opacity 1s forwards;
     animation-delay: .5s;
     opacity: 0;
 }
 header nav .logo {
     flex: 1;
     text-align: center;
-    animation: top 1s forwards;
+    animation: opacity 1s forwards;
     animation-delay: .3s;
     opacity: 0;
 }
 header nav .btn-write {
     flex: 3;
     text-align: right;
-    animation: top 1s forwards;
+    animation: opacity 1s forwards;
     animation-delay: .7s;
     opacity: 0;
 }
@@ -246,7 +246,7 @@ header .info .desc span:nth-of-type(2) {
 header .info .btn-anchor {
     text-align: center;
     margin-top: 100px;
-    animation: opacity 1s forwards;
+    animation: top 1s forwards;
     animation-delay: 1.7s;
     opacity: 0;
 }
@@ -278,13 +278,15 @@ header .info .btn-anchor .btn::before {
     text-align: center;
 }
 
-.about .info-block {
+.about .info-block,
+.address .info-block {
     display: grid;
     grid-template-rows: 360px 360px;
     grid-template-columns: 360px 360px 360px 360px;
 }
 
-.about .info-block .block {
+.about .info-block .block,
+.address .info-block .block {
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -408,19 +410,6 @@ header .info .btn-anchor .btn::before {
 
 .price .info-block .block .cost h3 {
     margin-bottom: 18px;
-}
-
-.address .info-block {
-    display: grid;
-    grid-template-rows: 360px 360px;
-    grid-template-columns: 360px 360px 360px 360px;
-}
-
-.address .info-block .block {
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .address .info-block .block:nth-of-type(1) {
