@@ -109,6 +109,9 @@ section:last-of-type {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     height: 100vh;
     background-color: #0E3280;
@@ -194,7 +197,7 @@ header nav .menu a:hover::before {
 }
 
 header .header {
-    padding-top: 9%;
+    margin-bottom: 10%;
 }
 
 header .header .info {
