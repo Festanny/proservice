@@ -241,4 +241,7 @@
     footer .footer .web-studio .img {
         height: 40px;
     }
+    header nav .btn-write .btn {
+        display: none;
+    }
 }

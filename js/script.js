@@ -17,7 +17,6 @@ $(window).scroll(function () {
 		}
 	}
 });
-
 if ($(window).width() <= 799) {
 	$('header nav').addClass('fixed');
 }
@@ -30,7 +29,6 @@ function onEntry(entry) {
 		}
 	});
 }
-
 let options = {
 	threshold: [0.3]
 };
