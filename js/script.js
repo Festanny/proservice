@@ -9,10 +9,7 @@ $("body").on('click', '[href*="#"]', function (e) {
 
 // scroll fixed nav
 $(window).scroll(function () {
-	if ($(window).width() <= 799) {
-		$('header nav').addClass('fixed');
-	}
-	else {
+	if ($(window).width() > 799) {
 		if ($(window).scrollTop() > $('header').height()) {
 			$('header nav').addClass('fixed');
 		} else {
@@ -20,6 +17,10 @@ $(window).scroll(function () {
 		}
 	}
 });
+
+if ($(window).width() <= 799) {
+	$('header nav').addClass('fixed');
+}
 
 // animation block
 function onEntry(entry) {

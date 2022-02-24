@@ -512,6 +512,62 @@ footer .footer-info {
     text-align: center;
 }
 
+.menu-m {
+    display: none;
+    flex: 3;
+    animation: opacity 1s forwards;
+    animation-delay: .5s;
+    opacity: 0;
+}
+
+.menu-m .menuBlock {
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+}
+
+.menu-m .menuBlock div {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+.menu-m .menuBlock div:first-of-type {
+    margin-top: 0;
+}
+
+.offcanvas-header {
+    justify-content: flex-start;
+    text-transform: uppercase;
+}
+
+.offcanvas-header .btn-close {
+    margin-right: 20px;
+}
+
+.offcanvas-body {
+    display: flex;
+    align-items: center;
+}
+
+.offcanvas-body .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.offcanvas-body .menu a {
+    color: #121722;
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #E5E5E5;
+}
+
+.offcanvas-body .menu a:last-of-type {
+    border-bottom: 1px solid #E5E5E5;
+}
+
 @keyframes top {
     0% {
         transform: translateY(30px);

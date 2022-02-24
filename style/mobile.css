@@ -219,4 +219,19 @@
     header .info .btn-anchor .btn {
         padding: 15px 70px 15px 36px;
     }
+    header .info .btn-anchor .btn::before {
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header nav .btn-write .btn {
+        padding: 8px 20px;
+    }
+    header .menu {
+        display: none;
+    }
+    header .menu-m {
+        display: block;
+    }
 }
