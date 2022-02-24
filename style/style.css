@@ -488,14 +488,12 @@ footer .footer .web-studio {
     text-align: right;
 }
 
-footer .footer .logo .img {
+footer .footer .logo .img,
+footer .footer .web-studio .img {
     height: 45px;
 }
 footer .footer .logo .img img {
     height: 100%;
-}
-footer .footer .web-studio .img {
-    height: 45px;
 }
 footer .footer .web-studio .img img {
     height: 100%;
