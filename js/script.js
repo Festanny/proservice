@@ -9,10 +9,15 @@ $("body").on('click', '[href*="#"]', function (e) {
 
 // scroll fixed nav
 $(window).scroll(function () {
-	if ($(window).scrollTop() > $('header').height()) {
+	if ($(window).width() <= 799) {
 		$('header nav').addClass('fixed');
-	} else {
-		$('header nav').removeClass('fixed');
+	}
+	else {
+		if ($(window).scrollTop() > $('header').height()) {
+			$('header nav').addClass('fixed');
+		} else {
+			$('header nav').removeClass('fixed');
+		}
 	}
 });
 

@@ -294,6 +294,10 @@ header .info .btn-anchor .btn::before {
     justify-content: center;
 }
 
+.address .info-block .block a {
+    color: #121722;
+}
+
 .about .info-block .block:nth-of-type(1),
 .address .info-block .block:nth-of-type(1) {
     grid-column: 1/3; 
