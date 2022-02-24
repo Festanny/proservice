@@ -159,7 +159,11 @@
     header .info .btn-anchor {
         margin-top: 70px;
     }
-    .about .info-block, .address .info-block {
+    .about .info-block {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 200px 200px 200px 200px;
+    }
+    .address .info-block {
         grid-template-columns: 50% 50%;
         grid-template-rows: 120px 200px 200px 200px;
     }
@@ -199,5 +203,20 @@
     .address .info-block .block:nth-of-type(4) {
         grid-column: 2; 
         grid-row: 4;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .header .info .text {
+        font-size: 42px;
+    }
+    header .info .desc span:nth-of-type(1) {
+        flex: 3;
+    }
+    header .info .desc span:nth-of-type(2) {
+        flex: 4;
+    }
+    header .info .btn-anchor .btn {
+        padding: 15px 70px 15px 36px;
     }
 }
