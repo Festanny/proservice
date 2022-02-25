@@ -428,6 +428,7 @@ header .info .btn-anchor .btn::before {
 .price .info-block .block .cost {
     padding-top: 32px;
     border-top: 1px dashed #DFDFDF;
+    height: 100%;
 }
 
 .price .info-block .block .cost h3 {
