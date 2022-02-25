@@ -252,10 +252,214 @@
     }
     .about .info-block {
         grid-template-columns: 50% 50%;
-        grid-template-rows: 200px 200px 260px 260px;
+        grid-template-rows: 200px 200px 280px 280px;
     }
     .address .info-block {
         grid-template-columns: 50% 50%;
-        grid-template-rows: 120px 200px 200px 260px;
+        grid-template-rows: 120px 200px 200px 280px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header .header .info .text {
+        font-size: 40px;
+    }
+    header .info .btn-anchor .btn {
+        padding: 13px 60px 13px 30px;
+    }
+    header .info .btn-anchor .btn::before {
+        right: 26px;
+        top: 18px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 21px;
+    }
+    .about .info-block .block .img, .address .info-block .block .img {
+        width: 80px;
+        height: 80px;
+    }
+    .h {
+        margin: 40px 0;
+        padding: 25px 0;
+    }
+    section {
+        margin-top: 70px;
+    }
+    header .info .desc span:nth-of-type(1) {
+        flex: 4;
+    }
+    header .info .desc span:nth-of-type(2) {
+        flex: 3;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .about .info-block {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 200px 200px 300px 300px;
+    }
+    .address .info-block {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 120px 200px 200px 300px;
+    }
+    .about .info-block .block .img, .address .info-block .block .img {
+        width: 75px;
+        height: 75px;
+    }
+    .price .info-block .block .info .img {
+        width: 110px;
+        height: 110px;
+    }
+    header .header .info .text {
+        font-size: 35px;
+    }
+    header .header {
+        margin-top: 110px;
+        margin-bottom: 60px;
+    }
+    header .info .btn-anchor {
+        margin-top: 60px;
+    }
+    .about .info-block .block, .address .info-block .block {
+        padding: 20px;
+    }
+    footer .footer {
+        flex-wrap: wrap;
+        padding: 45px 0;
+    }
+    footer .footer .info {
+        order: 3;
+        width: 100%;
+        flex: auto;
+        margin: 20px 0 0 0;
+    }
+    footer .footer .web-studio {
+        flex: 1;
+    }
+    footer .footer .logo {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header .header .info .text {
+        font-size: 32px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .about .info-block {
+        grid-template-columns: 100%;
+        grid-template-rows: auto 220px 220px 220px 220px;
+    }
+    .address .info-block {
+        grid-template-columns: 100%;
+        grid-template-rows: auto 220px 220px;
+    }
+    .about .info-block .block:nth-of-type(1),
+    .address .info-block .block:nth-of-type(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .about .info-block .block:nth-of-type(4) {
+        grid-row: 2;
+    }
+    .address .info-block .block:nth-of-type(2) {
+        display: none;
+    }
+    .address .info-block .block:nth-of-type(3) {
+        grid-row: 2;
+    }
+    .address .info-block .block:nth-of-type(4) {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .price .info-block .block {
+        width: 100%;
+    }
+    .price .info-block .block .cost {
+        padding-top: 20px;
+    }
+    .price .info-block .block .info .desc {
+        padding-bottom: 20px;
+    }
+    .price .info-block .block .info .desc h3,
+    .price .info-block .block .cost h3 {
+        margin-bottom: 8px;
+    }
+    .price .info-block .block {
+        padding: 30px 18px;
+    }
+    .offcanvas-body .menu a {
+        font-size: 17px;
+    }
+    h1 {
+        font-size: 23px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header nav .logo .img {
+        height: 40px;
+    }
+    header .header .info .text {
+        font-size: 30px;
+    }
+    header .info .desc {
+        flex-wrap: wrap;
+    }
+    header .info .desc span:nth-of-type(1),
+    header .info .desc span:nth-of-type(2) {
+        flex: auto;
+        width: 100%;
+    }
+    header .info .desc span:nth-of-type(2) {
+        margin-top: 20px;
+    }
+    footer .footer {
+        padding: 40px 0;
+    }
+    section {
+        margin-top: 60px;
+    }
+    .h {
+        padding: 25px 10px;
+    }
+    .about .info-block {
+        grid-template-rows: auto 230px 230px 230px 230px;
+    }
+    .address .info-block {
+        grid-template-rows: auto 230px 230px;
+    }
+    header nav .logo .img {
+        height: 35px;
+    }
+    footer .footer .logo .img, footer .footer .web-studio .img {
+        height: 35px;
+    }
+    .menu-m .menuBlock {
+        padding: 8px 8px 8px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .price .info-block .block .info .img {
+        width: 100px;
+        height: 100px;
+    }
+    header .header .info .text {
+        font-size: 29px;
+    }
+    .h {
+        padding: 15px 7px;
+    }
+    h1 {
+        font-size: 22px;
     }
 }
